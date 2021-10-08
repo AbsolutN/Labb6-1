@@ -111,6 +111,34 @@ def main():
 
 main()
 
+
+
+
+"""
+Vad representerar parametern stmt? 
+SVAR: står för statement. Mäter exekveringstiden för påståendet som vi matar in. Har ‘pass’ som default.  
+
+ 
+
+Vad representerar parametern number? 
+SVAR: number presenterar antalet gånger som kodsnutten körs. Ju högre tal desto mer statistiskt korrekt blir tidtagningen. 
+
+ 
+
+Vad är det timeit tar tid på?  
+SVAR: hur lång tid det tar att köra en viss kodsnutt- 
+
+ 
+
+Vad skrivs ut av ett anrop av timeit? 
+SVAR: tiden som operationen tog 
+"""
+
+
+
+
+
+
 """
 Dessa tider avser en körning
 
@@ -138,3 +166,5 @@ vänster om det större värdet som är till höger så hoppar funktionen vidare
 värdet på det index som kommer efter osv. När man går igenom alla värden i loopen utan att göra några byten så är
 sorteringen klar. Detta gör att tidskomplexiteten blir O(n^2).
 """
+
+ 
